@@ -1,10 +1,11 @@
-package com.zerobase.cms.cms;
+package com.zerobase.cms.user;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootTest
-class CmsApplicationTests {
+class UserApplicationTests {
 
 	@Test
 	void contextLoads() {
